@@ -14,3 +14,4 @@ Get-WmiObject -Class Win32_Product | Select-Object -Property Name | `
 # Can be run immediately
 Set-ExecutionPolicy -ExecutionPolicy Default
 # [Y]es
+
