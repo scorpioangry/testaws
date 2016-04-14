@@ -1,3 +1,4 @@
+<powershell>
 set
 # Check current setting
 Get-ExecutionPolicy
@@ -15,3 +16,4 @@ Get-WmiObject -Class Win32_Product | Select-Object -Property Name | `
 Set-ExecutionPolicy -ExecutionPolicy Default
 # [Y]es
 
+</powershell>
